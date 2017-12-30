@@ -75,6 +75,10 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.sep{
+    padding-top: 30px;
+}
+
 .selector{
     color: whitesmoke;
     width: 80%;
@@ -111,4 +115,37 @@ body{
     width: 25%;
     float: right;
     background-color: rgba(0, 0, 0, 0);
+}
+.price{
+    background: #edb82b;
+    float: right;
+    color: whitesmoke;
+    margin-top: -90px;
+    width: 50%;
+    font-size: 20px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    
+}
+
+.shape2 {
+    float: right;
+    color: whitesmoke;
+    margin-top: -90px;
+    width: 130px;
+    font-size: 20px;
+    text-align: center;
+}
+.top2 {
+    width: 30px;
+    border-width:0 0 30px 30px;
+    border-style:solid;
+    border-color:transparent #edb82b #edb82b transparent;
+    float: left;
+}
+.bottom2 {
+    background-color:#edb82b;
+    float: left;
+    height: 30px;
+    width: 100px;
 }
