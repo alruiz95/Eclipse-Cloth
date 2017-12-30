@@ -84,6 +84,9 @@ body{
     background-color: #337ab7;
     width: 30%;
 }
+.selectorLeft:hover{
+    background-color: #0f3857;
+}
 
 .selectorCenter{
     background-color: #337ab7;
@@ -94,6 +97,10 @@ body{
     background-color: #337ab7;
     width: 30%;
 }
+.selectorRight:hover{
+    background-color: #0f3857;
+}
+
 
 .btn:hover{
     color: whitesmoke;
