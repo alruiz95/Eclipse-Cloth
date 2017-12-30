@@ -10,63 +10,65 @@
             <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div>
-            <div class="top">
-                    <img src="icons/top.png" width="40px"> Cloth Shop
+        <div class="all">
+            <div>
+                <div class="top">
+                        <img src="icons/top.png" width="40px"> Cloth Shop
+        
+                    <div class="btn-group" style="width: 100%; position: absolute; left: 0; bottom: 0;">
+                        <button id="vehmod-btn-cursor" class="btn btn-primary btn-flat" style="width: 50%;"> <img src="icons/cursor.png" height="20px"> Cursor <span style="font-size: 12px;">(F2)</span></button>
+                        <button id="vehmod-btn-exit" class="btn btn-primary btn-flat" style="width: 50%;"> <img src="icons/exit.png" height="20px"> Exit </button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="sidenav">
+                    <a href="#"><img src="icons/hat.png"></a>
+                    <a href="#" class="active"><img src="icons/top.png"></a>
+                    <a href="#"><img src="icons/under.png"></a>
+                    <a href="#"><img src="icons/pants.png"></a>
+                    <a href="#"><img src="icons/shoe.png"></a>
+                    <div class="divider">
+                    </div>
+                    <a href="#"><img src="icons/acceso.png"></a>
+                    <a href="#"><img src="icons/glass.png"></a>
+                    <a href="#"><img src="icons/ears.png"></a>
+                    <a href="#"><img src="icons/watch.png"></a>
+                    <a href="#"><img src="icons/brace.png"></a>
+                </div>
     
-                <div class="btn-group" style="width: 100%; position: absolute; left: 0; bottom: 0;">
-                    <button id="vehmod-btn-cursor" class="btn btn-primary btn-flat" style="width: 50%;"> <img src="icons/cursor.png" height="20px"> Cursor <span style="font-size: 12px;">(F2)</span></button>
-                    <button id="vehmod-btn-exit" class="btn btn-primary btn-flat" style="width: 50%;"> <img src="icons/exit.png" height="20px"> Exit </button>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="sidenav">
-                <a href="#"><img src="icons/hat.png"></a>
-                <a href="#" class="active"><img src="icons/top.png"></a>
-                <a href="#"><img src="icons/under.png"></a>
-                <a href="#"><img src="icons/pants.png"></a>
-                <a href="#"><img src="icons/shoe.png"></a>
-                <div class="divider">
-                </div>
-                <a href="#"><img src="icons/acceso.png"></a>
-                <a href="#"><img src="icons/glass.png"></a>
-                <a href="#"><img src="icons/ears.png"></a>
-                <a href="#"><img src="icons/watch.png"></a>
-                <a href="#"><img src="icons/brace.png"></a>
-            </div>
-
-
-            
-            <div class="main container">
+    
                 
-
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <h1><label id="component">Top</label> ID</h1>
-                        <div class="row btn-group selector">
-                            <button class="btn selectorLeft">&lt;</button>
-                            <label class="btn selectorCenter">10 / 50</label>
-                            <button class="btn selectorRight">&gt;</button>
-                        </div>
-                        <div id="texture" hidden>
-                            <h1>Texture</h1>
+                <div class="main container">
+                    
+    
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <h1><label id="component">Top</label> ID</h1>
                             <div class="row btn-group selector">
                                 <button class="btn selectorLeft">&lt;</button>
-                                <label class="btn selectorCenter">2 / 5</label>
+                                <label class="btn selectorCenter">10 / 50</label>
                                 <button class="btn selectorRight">&gt;</button>
+                            </div>
+                            <div id="texture" hidden>
+                                <h1>Texture</h1>
+                                <div class="row btn-group selector">
+                                    <button class="btn selectorLeft">&lt;</button>
+                                    <label class="btn selectorCenter">2 / 5</label>
+                                    <button class="btn selectorRight">&gt;</button>
+                                </div>
                             </div>
                         </div>
                     </div>
+    
+                    <div class="row">
+                        </div class="col btn-group">
+                            <button  class="btn btn-success btn-flat" style="width: 100%;"> BUY </button>
+                        <div>
+                    </div>
+                    
                 </div>
-
-                <div class="row">
-                    </div class="col btn-group">
-                        <button  class="btn btn-success btn-flat" style="width: 100%;"> BUY </button>
-                    <div>
-                </div>
-                
             </div>
-        </div>
+        </div>  
     </body>
 </html>
