@@ -23,18 +23,18 @@
             </div>
             <div>
                 <div class="sidenav">
-                    <a href="#"><img src="icons/hat.png"></a>
-                    <a href="#" class="active"><img src="icons/top.png"></a>
-                    <a href="#"><img src="icons/under.png"></a>
-                    <a href="#"><img src="icons/pants.png"></a>
-                    <a href="#"><img src="icons/shoe.png"></a>
+                    <a id="hatTab" href="#" onclick="tabSelect('Hat',1)"><img src="icons/hat.png"></a>
+                    <a id="topTab" href="#" onclick="tabSelect('Top',1)" class="active"><img src="icons/top.png"></a>
+                    <a id="underTab" href="#" onclick="tabSelect('Undershirt',0)"><img src="icons/under.png"></a>
+                    <a id="pantsTab" href="#" onclick="tabSelect('Pants',0)"><img src="icons/pants.png"></a>
+                    <a id="shoesTab" href="#" onclick="tabSelect('Shoes',1)"><img src="icons/shoe.png"></a>
                     <div class="divider">
                     </div>
-                    <a href="#"><img src="icons/acceso.png"></a>
-                    <a href="#"><img src="icons/glass.png"></a>
-                    <a href="#"><img src="icons/ears.png"></a>
-                    <a href="#"><img src="icons/watch.png"></a>
-                    <a href="#"><img src="icons/brace.png"></a>
+                    <a id="accessTab" href="#" onclick="tabSelect('Accessorie',1)"><img src="icons/acceso.png"></a>
+                    <a id="glassTab" href="#" onclick="tabSelect('Glasses',0)"><img src="icons/glass.png"></a>
+                    <a id="earTab" href="#" onclick="tabSelect('Ears',0)"><img src="icons/ears.png"></a>
+                    <a id="watchTab" href="#" onclick="tabSelect('Watch',0)"><img src="icons/watch.png"></a>
+                    <a id="braceTab" href="#" onclick="tabSelect('Bracelet',0)"><img src="icons/brace.png"></a>
                 </div>
     
     
@@ -50,7 +50,7 @@
                                 <label class="btn selectorCenter">10 / 50</label>
                                 <button class="btn selectorRight">&gt;</button>
                             </div>
-                            <div id="texture" hidden>
+                            <div id="texture">
                                 <h1>Texture</h1>
                                 <div class="row btn-group selector">
                                     <button class="btn selectorLeft">&lt;</button>
